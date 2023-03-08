@@ -5,6 +5,8 @@ html {
 
 @media (max-width: 767px){
   html {font-size: 6px;}
+  summary::-webkit-details-marker
+    {display: none;}
 }
 
 .info {
@@ -25,7 +27,10 @@ html {
 
 summary::marker {
   display: none;
-  content: "";
+}
+
+summary::-webkit-details-marker {
+    display: none;
 }
 
 span {
