@@ -30,10 +30,6 @@ summary::marker {
   display: none;
 }
 
-summary::-webkit-details-marker {
-    display: none;
-}
-
 span {
   cursor: pointer;
   background-color: #ffffff;
