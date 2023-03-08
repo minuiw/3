@@ -1,0 +1,110 @@
+html {
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 16px;
+}
+
+.info {
+  border: none;
+  border-radius: 10px;
+  padding: .5em;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 4rem;
+}
+.info summary {
+  font-weight: 400;
+  margin: -.5em -.5em 0;
+  padding: .5em;
+  cursor: pointer;
+  word-wrap: break-word;
+}
+
+summary::marker {
+  display: none;
+  content: "";
+}
+
+span {
+  cursor: pointer;
+  background-color: #ffffff;
+  padding-top: .5rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  border-radius: 10rem;
+  white-space: nowrap;
+  height: 5rem;
+  display: inline-block;
+  color: #ffffff;
+  box-shadow: 0 0 1.2rem gray;
+  
+}
+
+span.c1:hover {
+  background-color: greenyellow;
+  color: black;
+}
+
+span.c2:hover {
+  background-color: aqua;
+  color: black;
+}
+
+span.c4:hover {
+  background-color: teal;
+  color: black;
+}
+
+span.c5:hover {
+  background-color: blueviolet;
+  color: black;
+}
+
+span.c6:hover {
+  background-color: orange;
+  color: black;
+}
+
+span.c7:hover {
+  background-color: red;
+  color: black;
+}
+
+span.c8:hover {
+  background-color: burlywood;
+  color: black;
+}
+
+span.c9:hover {
+  background-color: slateblue;
+  color: black;
+}
+
+span.c10:hover {
+  background-color: salmon;
+  color: black;
+}
+
+span.c11:hover {
+  background-color: royalblue;
+  color: black;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    margin-top: .1rem;
+    margin-left: .1rem;
+    margin-bottom: 1.6rem;
+    cursor: pointer;
+    white-space: normal;
+    word-break: keep-all;
+    line-height: 6rem;
+    color: black;
+    font-size: 4rem;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+}
+
+p::selection {
+  background-color: wheat;
+}
+
