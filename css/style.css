@@ -24,11 +24,11 @@ html {
   padding: 0.5em;
   cursor: pointer;
   word-wrap: break-word;
+  list-style: none;
 }
 
-summary::marker {
+summary::-webkit-details-marker {
   display: none;
-  content: "";
 }
 
 span {
